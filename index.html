@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aretia · Apps Lean</title>
+<meta name="theme-color" content="#111110">
+<link rel="icon" href="5s/icon-32.png">
+<style>
+:root{--ar:#B83A18;--bg:#f3f3f2;--fg:#111110;--muted:#5b5b58;--line:#d9d9d6;--surface:#fff}
+@media (prefers-color-scheme:dark){:root{--ar:#e8693f;--bg:#0f1716;--fg:#e8eeec;--muted:#9fb0ad;--line:#2b3a37;--surface:#172220}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font-family:"IBM Plex Sans",system-ui,Arial,sans-serif}
+header{background:#111110;color:#fff;border-bottom:3px solid #B83A18}
+.hin{max-width:980px;margin:0 auto;padding:18px 16px;display:flex;align-items:center;gap:12px}
+.wm{font-weight:700;letter-spacing:.28em;font-size:20px}
+main{max-width:980px;margin:0 auto;padding:28px 16px 48px}
+h1{font-size:28px;margin:0 0 6px}p.lead{color:var(--muted);margin:0 0 26px;max-width:640px;line-height:1.5}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+a.card{display:flex;flex-direction:column;gap:8px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px;text-decoration:none;color:inherit;transition:border-color .15s,transform .15s}
+a.card:hover{border-color:var(--ar);transform:translateY(-2px)}
+.tag{font:600 11px ui-monospace,monospace;letter-spacing:.1em;color:var(--ar);text-transform:uppercase}
+.card b{font-size:19px}.card span{color:var(--muted);font-size:14px;line-height:1.45}
+.go{margin-top:auto;padding-top:8px;font-weight:600;color:var(--ar)}
+footer{color:var(--muted);font-size:12px;text-align:center;padding:0 16px 28px}
+</style></head><body>
+<header><div class="hin"><svg viewBox="0 0 100 100" width="34" height="34" aria-hidden="true"><path d="M12 92 L50 10 L88 92" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><circle cx="50" cy="66" r="9" fill="#B83A18"/></svg><span class="wm">ARETIA</span></div></header>
+<main>
+<h1>Apps Lean · Demonstração</h1>
+<p class="lead">Três apps em uso real numa operação industrial, com os dados de uma unidade piloto. As cópias são congeladas e independentes: nada do que for feito aqui altera a operação de origem.</p>
+<div class="grid">
+<a class="card" href="5s/"><span class="tag">Programa 5S</span><b>Auditoria 5S e plano de ação</b><span>Auditorias por senso no celular, fotos, plano de ação com prazos e responsáveis, histórico por área e resumo semanal.</span><span class="go">Abrir →</span></a>
+<a class="card" href="coaching/"><span class="tag">Gestão no Genba</span><b>Coaching de liderança</b><span>Ciclos de coaching nos fóruns de gestão (Asakai, montagem, usinagem, logística), com evolução por líder.</span><span class="go">Abrir →</span></a>
+<a class="card" href="kanban/"><span class="tag">Sistema puxado</span><b>Kanban de supermercados</b><span>Dimensionamento de supermercados, cartões, quadro de programação e ordens de produção.</span><span class="go">Abrir →</span></a>
+</div>
+</main>
+<footer>Aretia · Lean + IA</footer>
+</body></html>
